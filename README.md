@@ -98,6 +98,6 @@ The following image shows the web application's appearance and functionality:
 
 ### Submission
 * Date Submitted: August 16, 2022
-* The URL of the deployed application: https://bslockhart.github.io/Password-Generator-Automaton/
-* The URL of the GitHub repository that contains your code: https://github.com/bslockhart/Password-Generator-Automaton
+* The URL of the deployed application:
+* The URL of the GitHub repository that contains your code: 
 * The URL of your portfolio, with your project added to it: 
