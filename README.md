@@ -4,6 +4,7 @@
 A real-world front-end application developed using the skills and technologies learned in previous modules (deployment, interactivity, client-side storage, responsive design, and polished UI). Application will be used as part of professional porfolio to show potential employers.
 
 ## Table of Contents
+* [Group Members](#Group-Members)
 * [Technologies Used](#Technologies-Used)
 * [User Story](#User-Story)
 * [Project Requirements](#Project-Requirements)
@@ -18,6 +19,12 @@ A real-world front-end application developed using the skills and technologies l
 * [Presentation](#Presentation)
 * [Collaboration](#Collaboration)
 * [Submission](#Submission)
+
+## Group Members
+* 
+* 
+* 
+* 
 
 ## Technologies Used
 * HTML
