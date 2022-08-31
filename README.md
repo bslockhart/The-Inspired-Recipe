@@ -97,7 +97,7 @@ The following image shows the web application's appearance and functionality:
 * There are no major disparities in the number of GitHub contributions between group members.
 
 ### Submission
-* Date Submitted: August 16, 2022
+* Date Submitted:
 * The URL of the deployed application:
 * The URL of the GitHub repository that contains your code: 
 * The URL of your portfolio, with your project added to it: 
