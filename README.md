@@ -105,6 +105,6 @@ The following image shows the web application's appearance and functionality:
 
 ### Submission
 * Date Submitted:
-* The URL of the deployed application:
-* The URL of the GitHub repository that contains your code: 
+* The URL of the deployed application: (https://bslockhart.github.io/Group-Project-1/)
+* The URL of the GitHub repository that contains your code: (https://github.com/bslockhart/Group-Project-1)
 * The URL of your portfolio, with your project added to it: 
