@@ -1,4 +1,5 @@
 # Group Project 1
+# Group #6
 
 ## Description
 A real-world front-end application developed using the skills and technologies learned in previous modules (deployment, interactivity, client-side storage, responsive design, and polished UI). Application will be used as part of professional porfolio to show potential employers.
@@ -20,11 +21,11 @@ A real-world front-end application developed using the skills and technologies l
 * [Collaboration](#Collaboration)
 * [Submission](#Submission)
 
-## Group Members
-* 
-* 
-* 
-* 
+## Group Members 
+* August Lascola    
+* Brian Lockhart
+* Jennifer Argent
+* Kyle Bradshaw
 
 ## Technologies Used
 * HTML
