@@ -35,7 +35,6 @@ A real-world front-end application developed using the skills and technologies l
 ### User Story
 * 
 *
-*
 
 ### Project Requirements
 1. Use a CSS framework other than Bootstrap.
