@@ -58,11 +58,76 @@
           </div>
         </div>
 
+        <div class="column is-8">
+          <div class="notification is-warning is-size-7" id="search-results-container" style="display: none;">
+            <div class="columns is-multiline" id="search-results" style="background-color: rgb(11, 242, 242);"></div>
+          </div>
+
+          <div class="notification is-default" id="recipe" style="display: none;">
+            <div class="columns">
+              <div class="column is-3">
+                <img id="recipe_img" />
+              </div>
+              <div class="column is-9">
+                <h3 id="title" class="title"></h3>
+
+                <div class="columns">
+                  <div class="column is-3">
+                    <ul id="measurement"></ul>
+                  </div>
+                  <div class="column is-4">
+                    <ul id="ingredient"></ul>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="columns">
+              <p id="instructions"></p>
+            </div>
+            <br>
+            <br>
+            <div class="columns is-centered" id="video">
+
+            </div>
+            <br>
+            <br>
+            <div class="columns is-centered">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th><abbr title="Quantity">Qty</abbr></th>
+                    <th>Unit</th>
+                    <th>Food</th>
+                    <th>Calories</th>
+                    <th>Weight</th>
+                    <th>Food Group</th>
+                  </tr>
+                </thead>
+                <tfoot id="nutrition_foot">
+                  <tr>
+                    <th></th>
+                    <th></th>
+                    <th>Total</th>
+                    <th id="total_cal">1290</th>
+                    <th id="total_weight">560.08 g</th>
+                    <th></th>
+                  </tr>
+                </tfoot>
+                <tbody id="nutrition_body">
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
-
-        <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 <footer></footer>
