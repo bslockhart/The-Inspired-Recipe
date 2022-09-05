@@ -1,18 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Group Project 1</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-  
-  <body>
 
-    <script src="./assets/js/script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>The Inspired Recipe: Inspirational Food</title>
+</head>
 
-  <footer></footer>
+<body>
+
+  <!--Top "Hero" of the page-->
+  <section class="hero is-dark">
+    <div class="hero-body">
+      <div class="container" id="heroContainer">
+        <div class="titleHero">
+          <h1 id="titleLogo">The Inspired Recipe</h1>
+          <img id="logo" src="./assets/images/logo.jpg" alt="MIC" style="max-width: 100px; max-height: 100px;">
+        </div>
+        <h4 id="subHead">Become Inspired</h4>
+      </div>
+    </div>
+  </section>
+  <!-- End of "Hero" part of page-->
+
+  <!--Search Section-->
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-4">
+
+          <!--Search box-->
+          <div class="notification is-primary is-size-3">
+            <form id="search-form">
+              <label class="label">Recipe Search</label>
+              <div class="field has-addons">
+                <div class="control">
+                  <input class="input" type="text" placeholder="Enter Search" id="search-field">
+                </div>
+                <div class="control">
+                  <a class="button is-info" id="search-button">Search</a>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!--Search history-->
+          <div class="notification has-background-grey-lighter" id="search-history">
+            <label class="label">Inspirational Ideas</label>
+            <p id='search-history-help'>Ideas to inspire you.</p>
+            <ul id="search-history-list">
+            </ul>
+          </div>
+        </div>
+
+        <!--Display image and name and Ingredient section-->
+        <div class="column is-8">
+          <div class="notification is-warning is-size-7" id="search-results-container" style="display: none;">
+            <div class="columns is-multiline" id="search-results" style="background-color: rgb(11, 242, 242);"></div>
+          </div>
+
+          <div class="notification is-default" id="recipe" style="display: none;">
+            <div class="columns">
+              <div class="column is-3">
+                <img id="recipe_img" />
+              </div>
+              <div class="column is-9">
+                <h3 id="title" class="title"></h3>
+
+                <div class="columns">
+                  <div class="column is-3">
+                    <ul id="measurement"></ul>
+                  </div>
+                  <div class="column is-4">
+                    <ul id="ingredient"></ul>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="columns">
+              <p id="instructions"></p>
+            </div>
+            <br>
+            <br>
+            <div class="columns is-centered" id="video">
+
+            </div>
+            <br>
+            <br>
+            <div class="columns is-centered">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th><abbr title="Quantity">Qty</abbr></th>
+                    <th>Unit</th>
+                    <th>Food</th>
+                    <th>Calories</th>
+                    <th>Weight</th>
+                    <th>Food Group</th>
+                  </tr>
+                </thead>
+                <tfoot id="nutrition_foot">
+                  <tr>
+                    <th></th>
+                    <th></th>
+                    <th>Total</th>
+                    <th id="total_cal">1290</th>
+                    <th id="total_weight">560.08 g</th>
+                    <th></th>
+                  </tr>
+                </tfoot>
+                <tbody id="nutrition_body">
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">Made with ❤️ by Group # 6.</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/js/meal.js"></script>
+  <script src="assets/js/nutritionix.js"></script>
+  <script src="assets/js/search_history.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
 
 </html>

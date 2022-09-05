@@ -1,0 +1,91 @@
+.hidden {
+  display: none;
+}
+
+#measurement,
+#ingredient {
+  list-style-type: none;
+}
+
+.titleHero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notification.is-warning {
+  background-color: #1f1c10;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#logo {
+  border: rgba(80, 255, 211, 0.77) 2px ridge;
+}
+
+#titleLogo {
+  position: relative;
+  top: 10px;
+  color: rgb(9, 243, 212);
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+element.style {
+}
+
+.hero.is-dark {
+  background-color: #363636;
+  color: #fff;
+}
+.hero {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+article, aside, figure, footer, header, hgroup, section {
+  display: block;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+section {
+  display: block;
+}
+
+body {
+  color: #4a4a4a;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+#subHead {
+  position: relative;
+  top: -45px;
+}
+
+.hero-body {
+  padding-bottom: 0px;
+  padding-top: 30px;
+}
+
+#footer {
+  background-color: #0ef1e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: grey 10px groove;
+  color: rgba(7, 12, 10, 0);
+}
+
+.notification {
+    border-radius: 4px;
+    padding: 3rem 1rem 1rem;
+    position: relative;
+}
