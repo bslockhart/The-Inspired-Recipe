@@ -116,4 +116,10 @@ The following image shows the web application's appearance and functionality:
 * Date Submitted:
 * The URL of the deployed application: (https://bslockhart.github.io/Group-Project-1/)
 * The URL of the GitHub repository that contains your code: (https://github.com/bslockhart/Group-Project-1)
+<<<<<<< HEAD
 * The URL of your portfolio, with your project added to it:   
+=======
+* The URL of your portfolio, with your project added to it: 
+
+## I enjoy JavaScript because it utilizes both functional programming and object-oriented programming.
+>>>>>>> ffff88ab2838c73a574dcd395117dad62ba26559
