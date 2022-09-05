@@ -32,9 +32,10 @@ A real-world front-end application developed using the skills and technologies l
 * CSS
 * JavaScript
 
-### User Story
-* 
-*
+## Two API's
+* [developer.nutritionix](https://developer.nutritionix.com/)
+* [themealdb](https://www.themealdb.com/api.php)
+
 
 ### Project Requirements
 1. Use a CSS framework other than Bootstrap.
@@ -48,11 +49,19 @@ A real-world front-end application developed using the skills and technologies l
 9. Have a clean repository that meets quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
 10. Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
-### Acceptance Criteria:
-*
-*
-*
-*
+# Concept
+* Given I am user who wants to find a recipe
+* When I enter the category of food and click the search button
+* Then I am presented with a list of recipes
+* Given  I am a user who views a list of recipes
+* When I click on one recipe
+* Then I am presented with the selected recipe
+* Given I am a user who wants to create a recipe
+* When I view a recipe
+* Then I also view ingredients for that recipe
+* Given I am a user who wants information about nutrition
+* When I view ingredients for a recipe
+* Then I am presented with nutrition facts for these ingredients
 
 ## Mock Up
 The following image shows the web application's appearance and functionality:
