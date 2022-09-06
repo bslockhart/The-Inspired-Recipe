@@ -3,6 +3,7 @@ Works with localStorage to keep the history list updated on new page loads
 Also connects to search button and form submit
 Runs on page load and on search button click
 */
+
 const displaySearchHistory = (newSearchTerm) => {
     let searchHistory = {};
     if (localStorage.getItem('search_history')) {
@@ -48,3 +49,11 @@ const updateSearchHistoryList = (searchHistory) => {
         });
     };    
 };
+
+// on clicking the clear history button
+$("#clear-localStorage").on("click", function() {
+    localStorage.clear();
+    $("#searchHistoryList").empty();
+    updateSearchHistoryList(false);
+    $("#search-history-help").removeClass("hidden")
+});

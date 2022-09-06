@@ -89,3 +89,8 @@ body {
     padding: 3rem 1rem 1rem;
     position: relative;
 }
+
+button {
+  padding: 0px;
+  border: 0px;
+}
