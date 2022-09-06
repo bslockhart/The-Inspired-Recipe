@@ -8,8 +8,7 @@
 }
 
 .titleHero {
-  display: flex;
-  justify-content: space-between;
+  flex-direction: row;
 }
 
 .notification.is-warning {
@@ -18,18 +17,13 @@
 }
 
 #logo {
-  border: rgba(80, 255, 211, 0.77) 2px ridge;
+  border: rgb(9, 243, 212) 2px ridge;
 }
 
 #titleLogo {
-  position: relative;
-  top: 10px;
   color: rgb(9, 243, 212);
   font-size: 35px;
   font-weight: bolder;
-}
-
-element.style {
 }
 
 .hero.is-dark {
@@ -63,25 +57,28 @@ body {
   font-size: 2em;
   font-weight: 400;
   line-height: 1.5;
+  
 }
 
-#subHead {
-  position: relative;
-  top: -45px;
+#heroContainer {
+  display: flex;
 }
-
 .hero-body {
   padding-bottom: 0px;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 #footer {
-  background-color: #0ef1e2;
+  background-color: rgb(9, 243, 212);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   border-top: grey 10px groove;
   color: rgba(7, 12, 10, 0);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #1f1c10;
 }
 
 .notification {
@@ -93,4 +90,13 @@ body {
 button {
   padding: 0px;
   border: 0px;
+}
+
+.footer-names {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-names p {
+  margin-right: 30px;
 }
