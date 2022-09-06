@@ -69,15 +69,16 @@ body {
 }
 
 #footer {
-  background-color: #0ef1e2;
+  background-color: rgb(9, 243, 212);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   border-top: grey 10px groove;
   color: rgba(7, 12, 10, 0);
   position: absolute;
   bottom: 0;
   width: 100%;
+  color: #1f1c10;
 }
 
 .notification {
@@ -89,4 +90,13 @@ body {
 button {
   padding: 0px;
   border: 0px;
+}
+
+.footer-names {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-names p {
+  margin-right: 30px;
 }
