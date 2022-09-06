@@ -107,7 +107,8 @@ The following image shows the web application's appearance and functionality:
 ### Presentation
 1. Your group should present using Powerpoint or a similar presentation software.
 2. Every group member should speak during the presentation.
-3. Your presentation should follow the Project Presentation Template: https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit#slide=id.p
+3. Project Presentation Template: https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit#slide=id.p
+4. PowerPoint Presentation Document: https://docs.google.com/presentation/d/1HptAI24cI1mJe26np0eUSyyIPoNQYaGO/edit?usp=sharing&ouid=103431585642431900224&rtpof=true&sd=true
 
 ### Collaboration
 * There are no major disparities in the number of GitHub contributions between group members.
@@ -117,4 +118,4 @@ The following image shows the web application's appearance and functionality:
 * The URL of the deployed application: (https://bslockhart.github.io/Group-Project-1/)
 * The URL of the GitHub repository that contains your code: (https://github.com/bslockhart/Group-Project-1)
 * The URL of your portfolio, with your project added to it:   
-* PowerPoint: 
+* PowerPoint Presentation Document: https://docs.google.com/presentation/d/1HptAI24cI1mJe26np0eUSyyIPoNQYaGO/edit?usp=sharing&ouid=103431585642431900224&rtpof=true&sd=true
