@@ -100,3 +100,7 @@ button {
 .footer-names p {
   margin-right: 30px;
 }
+
+#back-button {
+  float: right;
+}
