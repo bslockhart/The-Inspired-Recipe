@@ -45,6 +45,7 @@ const getNutrition = (ingredients) => {
 };
 
 const printIngredients = (ingredientResponse) => {
+    const main = $(".main")
     const nutritionBodyEl = $('#nutrition_body');
     nutritionBodyEl.empty();
 
@@ -81,4 +82,5 @@ const printIngredients = (ingredientResponse) => {
 
     totalCaloriesEl.text(`${totalCalories.toFixed(0)} cal`);
     totalWeightEl.text(`${totalWeight.toFixed(2)} g`);
+    main.css("height", "max-content");
 };

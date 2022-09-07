@@ -105,9 +105,6 @@ body {
   border-top: grey 10px groove;
   color: rgba(7, 12, 10, 0);
   color: #1f1c10;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 .notification {
