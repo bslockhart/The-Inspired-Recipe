@@ -65,14 +65,12 @@ const mealSelection = (selMealID) => {
     const mealTitleEl = $("#title");
     const mealVideoEl = $("#video");
     const mealImgEl = $("#recipe_img");
-    const ingredientEl = $("#ingredient");
-    const measurementEl = $("#measurement");
+    const recipeListEl = $("#recipe-list");
     const instructionsEl = $("#instructions");
 
     searchContainerEl.css('display', 'none');
     recipeEl.css('display', 'block');
-    ingredientEl.empty();
-    measurementEl.empty();
+    recipeListEl.empty();
 
     mealTitleEl.text(selMealObj.strMeal);
 
@@ -88,15 +86,9 @@ const mealSelection = (selMealID) => {
         const measurement = selMealObj["strMeasure" + i];
 
         if(ingredient !== "" && ingredient !== null){
-            const ingredientListItem = $("<li>");
-
-            ingredientListItem.text(ingredient);
-            ingredientEl.append(ingredientListItem);
-            
-            const measurementListItem = $("<li>");
-            
-            measurementListItem.text(measurement);
-            measurementEl.append(measurementListItem);
+            const recipeListItem = $("<li>");
+            recipeListItem.text(measurement + " " + ingredient);
+            recipeListEl.append(recipeListItem);
 
             mealSelectionArray.push({"ingredient": ingredient, "quantity": measurement});
         } else {
