@@ -11,7 +11,7 @@ const mealSearch = (searchTerm) => {
         let searchResultEl = $('#search-results');
         mealsArray = response.meals;
 
-        searchResultEl.empty();
+        searchResultEl.empty(); // this is not emptying the search bar
         searchContainerEl.css('display', 'block');
         recipeEl.css('display', 'none');
   
@@ -105,3 +105,10 @@ const mealSelection = (selMealID) => {
     };
     getNutrition(mealSelectionArray);
 };
+
+// back button functionality
+$("#back-button").on("click", function() {
+    searchContainerEl.css('display', 'block');
+    recipeEl.css('display', 'none');
+
+})
