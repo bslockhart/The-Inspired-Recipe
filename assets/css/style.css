@@ -68,6 +68,23 @@ body {
   padding-top: 10px;
 }
 
+/* history css */
+.label {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.search-clear {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.button  {
+  padding-left: 5px;
+}
+
 #footer {
   background-color: rgb(9, 243, 212);
   display: flex;

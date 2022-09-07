@@ -35,8 +35,7 @@
         <div class="column is-4">
 
           <!--Search box-->
-          <div class="notification is-primary is-size-3">
-            <form id="search-form">
+            <form id="search-form" class="notification is-primary is-size-3">
               <label class="label">Recipe Search</label>
               <div class="field has-addons">
                 <div class="control">
@@ -47,21 +46,21 @@
                 </div>
               </div>
             </form>
-          </div>
 
           <!--Search history-->
           <div class="notification has-background-grey-lighter" id="search-history">
-            <label class="label">Inspirational Ideas</label>
-
-            <button class ="Control">
+            <div class="search-clear">
+              <label class="label">Inspirational Ideas</label>
+              <button class ="Control">
                 <a class="button is-info" id="clear-localStorage">Clear History</a>
-            </button>
+              </button>
+            </div>
             <p id='search-history-help' >Ideas to inspire you.</p>
 
      
             <ul id="search-history-list">
             </ul>
-            </div>
+          </div>
         </div>
 
         <!--Display image and name and Ingredient section-->
