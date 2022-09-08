@@ -35,8 +35,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 120px;
-  flex-grow: 0;
 }
 
 article, aside, figure, footer, header, hgroup, section {
@@ -52,14 +50,6 @@ article, aside, figure, footer, header, hgroup, section {
 
 section {
   display: block;
-  height: 100%;
-}
-
-html, body{
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
 }
 
 body {
@@ -67,10 +57,7 @@ body {
   font-size: 2em;
   font-weight: 400;
   line-height: 1.5;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-grow: 1;
+  
 }
 
 #heroContainer {
@@ -81,32 +68,16 @@ body {
   padding-top: 10px;
 }
 
-/* history css */
-.label {
-  font-size: 25px;
-  margin-right: 5px;
-}
-
-.search-clear {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.button  {
-  padding-left: 5px;
-}
-
 #footer {
-  background-color: rgb(9, 243, 212);
-  display: flex;
+  background-image: linear-gradient(to bottom, #09f3d4, white);
   align-items: center;
   justify-content: space-between;
   border-top: grey 10px groove;
   color: rgba(7, 12, 10, 0);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   color: #1f1c10;
-  flex-grow: 0;
 }
 
 .notification {
@@ -131,5 +102,22 @@ button {
 
 #back-button {
   float: right;
-  padding: 15px;
 }
+
+.footer-brand {
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+
+.row.credits {
+  font-size: 18px;
+  font-weight: 500;
+  display: grid;
+  gap: 5rem;
+  grid-auto-flow: column;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+/*  */
