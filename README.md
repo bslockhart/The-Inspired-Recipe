@@ -32,9 +32,10 @@ A real-world front-end application developed using the skills and technologies l
 * CSS
 * JavaScript
 
-### User Story
-* 
-*
+## Two API's
+* [developer.nutritionix](https://developer.nutritionix.com/)
+* [themealdb](https://www.themealdb.com/api.php)
+
 
 ### Project Requirements
 1. Use a CSS framework other than Bootstrap.
@@ -48,11 +49,19 @@ A real-world front-end application developed using the skills and technologies l
 9. Have a clean repository that meets quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
 10. Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
-### Acceptance Criteria:
-*
-*
-*
-*
+# Concept
+* Given I am user who wants to find a recipe
+* When I enter the category of food and click the search button
+* Then I am presented with a list of recipes
+* Given  I am a user who views a list of recipes
+* When I click on one recipe
+* Then I am presented with the selected recipe
+* Given I am a user who wants to create a recipe
+* When I view a recipe
+* Then I also view ingredients for that recipe
+* Given I am a user who wants information about nutrition
+* When I view ingredients for a recipe
+* Then I am presented with nutrition facts for these ingredients
 
 ## Mock Up
 The following image shows the web application's appearance and functionality:
@@ -98,7 +107,8 @@ The following image shows the web application's appearance and functionality:
 ### Presentation
 1. Your group should present using Powerpoint or a similar presentation software.
 2. Every group member should speak during the presentation.
-3. Your presentation should follow the Project Presentation Template: https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit#slide=id.p
+3. Project Presentation Template: https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit#slide=id.p
+4. PowerPoint Presentation Document: https://docs.google.com/presentation/d/1HptAI24cI1mJe26np0eUSyyIPoNQYaGO/edit?usp=sharing&ouid=103431585642431900224&rtpof=true&sd=true
 
 ### Collaboration
 * There are no major disparities in the number of GitHub contributions between group members.
@@ -107,6 +117,5 @@ The following image shows the web application's appearance and functionality:
 * Date Submitted:
 * The URL of the deployed application: (https://bslockhart.github.io/Group-Project-1/)
 * The URL of the GitHub repository that contains your code: (https://github.com/bslockhart/Group-Project-1)
-* The URL of your portfolio, with your project added to it: 
-
-## I enjoy JavaScript because it utilizes both functional programming and object-oriented programming.
+* The URL of your portfolio, with your project added to it:   
+* PowerPoint Presentation Document: https://docs.google.com/presentation/d/1HptAI24cI1mJe26np0eUSyyIPoNQYaGO/edit?usp=sharing&ouid=103431585642431900224&rtpof=true&sd=true
