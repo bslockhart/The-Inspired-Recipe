@@ -30,6 +30,8 @@ A real-world front-end application developed using the skills and technologies l
 ## Technologies Used
 * HTML
 * CSS
+* Bulma
+* Application Programming Interface
 * JavaScript
 
 ## Two API's
