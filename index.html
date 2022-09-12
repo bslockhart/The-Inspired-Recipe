@@ -20,7 +20,7 @@
         <img id="logo" class="" src="./assets/images/Logo.svg" alt="MIC" style="max-width: 100px; max-height: 100px;">
         <div class="titleHero">
           <h1 id="titleLogo">The Inspired Recipe</h1>
-          <h4 id="subHead">Become Inspired</h4>
+          <h4 class="subtitle is-4" id="subHead">Become Inspired</h4>
         </div>
       </div>
 
@@ -42,7 +42,7 @@
                 <input class="input" type="text" placeholder="Enter Search" id="search-field">
               </div>
               <div class="control">
-                <a class="button is-info" id="search-button">Search</a>
+                <a class="button is-info is-responsive" id="search-button">Search</a>
               </div>
             </div>
           </form>
@@ -52,11 +52,11 @@
             <div class="search-clear">
               <label class="label">Inspirational Ideas</label>
               <button class="Control">
-                <a class="button is-info" id="clear-localStorage">Clear History</a>
+                <a class="button is-info is-responsive" id="clear-localStorage">Clear History</a>
               </button>
             </div>
-            <p id='search-history-help'>Ideas to inspire you.</p>
-            <ul id="search-history-list">
+            <p class="is-size-4" id='search-history-help'>Ideas to inspire you.</p>
+            <ul class="is-size-5" id="search-history-list">
             </ul>
           </div>
         </div>
@@ -67,8 +67,8 @@
             <div class="columns is-multiline" id="search-results" style="background-color: rgb(11, 242, 242);"></div>
           </div>
 
-          <div class="notification is-default" id="recipe" style="display: none;">
-            <button class="button is-primary" id="back-button">Back</button>
+          <div class="notification is-default is-size-4 is-size-5-mobile" id="recipe" style="display: none;">
+            <button class="button is-primary is-responsive" id="back-button">Back</button>
             <div class="columns">
               <div class="column is-3">
                 <img id="recipe_img" />
@@ -94,64 +94,73 @@
             </div>
             <br>
             <br>
-            <div class="columns is-centered">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th><abbr title="Quantity">Qty</abbr></th>
-                    <th>Unit</th>
-                    <th>Food</th>
-                    <th>Calories</th>
-                    <th>Weight</th>
-                    <th>Food Group</th>
-                  </tr>
-                </thead>
-                <tfoot id="nutrition_foot">
-                  <tr>
-                    <th></th>
-                    <th></th>
-                    <th>Total</th>
-                    <th id="total_cal">1290</th>
-                    <th id="total_weight">560.08 g</th>
-                    <th></th>
-                  </tr>
-                </tfoot>
-                <tbody id="nutrition_body">
-                </tbody>
-              </table>
-            </div>
+           <!-- original spot for nutrition -->
           </div>
         </div>
       </div>
     </div>
+    <!-- separate container for nutrition facts-->
+    <div class="table-container">
+      <div class="columns is-centered" id="nutrition-table" style="display: none;">
+        <div class="column">
+          <table class="table is-stiped is-fullwidth">
+          <thead class="is-size-4-mobile">
+            <tr>
+              <th><abbr title="Quantity">Qty</abbr></th>
+              <th>Unit</th>
+              <th>Food</th>
+              <th>Calories</th>
+              <th>Weight</th>
+              <th>Food Group</th>
+            </tr>
+          </thead>
+          <tfoot class="is-size-4-mobile" id="nutrition_foot">
+            <tr>
+              <th></th>
+              <th></th>
+              <th>Total</th>
+              <th id="total_cal">1290</th>
+              <th id="total_weight">560.08 g</th>
+              <th></th>
+            </tr>
+          </tfoot>
+          <tbody class="is-size-5 is-size-4-desktop" id="nutrition_body">
+          </tbody>
+          </table>
+      </div>
+    </div>
+  </div>
   </div>
 
   <!-- Footer -->
-  <div class="container-fluid" id="footer">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="footer-brand"> The Inspired Recipe </h1>
+  <footer class="container is-fluid" id="footer" style="position:fixed">
+      <div>
+        <h5 class="footer-brand title is-5"> The Inspired Recipe </h5>
       </div>
-    </div>
-    <div class="row credits">
-      <div class="col-sm-6 col-md-3 dev-box">August Lascola
+    
+    <div class="columns is-multiline has-text-centered is-mobile is-size-7-mobile is-size-5-tablet">
+      <div class="column is-one-quarter dev-box">
+        <p>August Lascola</p>
         <a href="https://github.com/August-Lascola" target="_blank" class="pro-box github">
           <i class="fa fa-github" aria-hidden="true"></i>Github</a>
       </div>
-      <div class="col-sm-6 col-md-3 dev-box">Brian Lockhart
+      <div class="column is-one-quarter dev-box">
+        <p>Brian Lockhart</p>
         <a href="https://github.com/bslockhart/Group-Project-1" target="_blank" class="pro-box github">
           <i class="fa fa-github" aria-hidden="true"></i>Github</a>
       </div>
-      <div class="col-sm-6 col-md-3 dev-box">Jennifer Argent
+      <div class="column is-one-quarter dev-box">
+        <p>Jennifer Argent</p>
         <a href="https://github.com/jrargent" target="_blank" class="pro-box github">
           <i class="fa fa-github" aria-hidden="true"></i>Github</a>
       </div>
-      <div class="col-sm-6 col-md-3 dev-box">Kyle Bradshaw
+      <div class="column is-one-quarter dev-box">
+        <p>Kyle Bradshaw</p>
         <a href="https://github.com/kabradshaw1" target="_blank" class="pro-box github">
           <i class="fa fa-github" aria-hidden="true"></i>Github</a>
       </div>
     </div>
-  </div>
+  </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="assets/js/meal.js"></script>

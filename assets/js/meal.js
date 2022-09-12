@@ -2,6 +2,7 @@ let search;
 let mealsArray = [];
 const searchContainerEl = $('#search-results-container');
 const recipeEl = $("#recipe");
+const nutritionEl = $("#nutrition-table");
 
 const mealSearch = (searchTerm) => {
     $.ajax({
@@ -11,9 +12,11 @@ const mealSearch = (searchTerm) => {
         let searchResultEl = $('#search-results');
         mealsArray = response.meals;
 
-        searchResultEl.empty(); // this is not emptying the search bar
+        searchResultEl.empty(); 
         searchContainerEl.css('display', 'block');
         recipeEl.css('display', 'none');
+        nutritionEl.css('display', 'none');
+        $("#footer").css('position', "");
   
         if (mealsArray === null) {
             const searchFailedMsg = $('<p>').text('Sorry, no results were found. Try another search.');
@@ -70,6 +73,7 @@ const mealSelection = (selMealID) => {
 
     searchContainerEl.css('display', 'none');
     recipeEl.css('display', 'block');
+    nutritionEl.css('display', 'block');
     recipeListEl.empty();
 
     mealTitleEl.text(selMealObj.strMeal);
@@ -102,5 +106,6 @@ const mealSelection = (selMealID) => {
 $("#back-button").on("click", function() {
     searchContainerEl.css('display', 'block');
     recipeEl.css('display', 'none');
+    nutritionEl.css('display', 'none');
 
 })
