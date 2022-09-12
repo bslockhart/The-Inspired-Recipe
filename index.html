@@ -100,11 +100,11 @@
       </div>
     </div>
     <!-- separate container for nutrition facts-->
-    <div class="container">
+    <div class="table-container">
       <div class="columns is-centered" id="nutrition-table" style="display: none;">
-        <div class="column is-narrow">
-          <table class="table is-stiped">
-          <thead>
+        <div class="column">
+          <table class="table is-stiped is-fullwidth">
+          <thead class="is-size-4-mobile">
             <tr>
               <th><abbr title="Quantity">Qty</abbr></th>
               <th>Unit</th>
@@ -114,7 +114,7 @@
               <th>Food Group</th>
             </tr>
           </thead>
-          <tfoot id="nutrition_foot">
+          <tfoot class="is-size-4-mobile" id="nutrition_foot">
             <tr>
               <th></th>
               <th></th>
@@ -124,7 +124,7 @@
               <th></th>
             </tr>
           </tfoot>
-          <tbody id="nutrition_body">
+          <tbody class="is-size-5" id="nutrition_body">
           </tbody>
           </table>
       </div>
@@ -132,7 +132,7 @@
   </div>
 
   <!-- Footer -->
-  <footer class="container is-fluid" id="footer">
+  <footer class="container is-fluid" id="footer" style="position:fixed">
       <div>
         <h5 class="footer-brand title is-5"> The Inspired Recipe </h5>
       </div>

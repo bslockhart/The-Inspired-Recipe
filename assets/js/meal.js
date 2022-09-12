@@ -16,6 +16,7 @@ const mealSearch = (searchTerm) => {
         searchContainerEl.css('display', 'block');
         recipeEl.css('display', 'none');
         nutritionEl.css('display', 'none');
+        $("#footer").css('position', "");
   
         if (mealsArray === null) {
             const searchFailedMsg = $('<p>').text('Sorry, no results were found. Try another search.');
