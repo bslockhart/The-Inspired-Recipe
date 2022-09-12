@@ -94,34 +94,39 @@
             </div>
             <br>
             <br>
-            <div class="columns is-centered">
-              <table class="table is-stiped">
-                <thead>
-                  <tr>
-                    <th><abbr title="Quantity">Qty</abbr></th>
-                    <th>Unit</th>
-                    <th>Food</th>
-                    <th>Calories</th>
-                    <th>Weight</th>
-                    <th>Food Group</th>
-                  </tr>
-                </thead>
-                <tfoot id="nutrition_foot">
-                  <tr>
-                    <th></th>
-                    <th></th>
-                    <th>Total</th>
-                    <th id="total_cal">1290</th>
-                    <th id="total_weight">560.08 g</th>
-                    <th></th>
-                  </tr>
-                </tfoot>
-                <tbody id="nutrition_body">
-                </tbody>
-              </table>
-            </div>
+           <!-- original spot for nutrition -->
           </div>
         </div>
+      </div>
+    </div>
+    <!-- separate container for nutrition facts-->
+    <div class="container">
+      <div class="columns is-centered" id="nutrition-table" style="display: none;">
+        <div class="column is-narrow">
+          <table class="table is-stiped">
+          <thead>
+            <tr>
+              <th><abbr title="Quantity">Qty</abbr></th>
+              <th>Unit</th>
+              <th>Food</th>
+              <th>Calories</th>
+              <th>Weight</th>
+              <th>Food Group</th>
+            </tr>
+          </thead>
+          <tfoot id="nutrition_foot">
+            <tr>
+              <th></th>
+              <th></th>
+              <th>Total</th>
+              <th id="total_cal">1290</th>
+              <th id="total_weight">560.08 g</th>
+              <th></th>
+            </tr>
+          </tfoot>
+          <tbody id="nutrition_body">
+          </tbody>
+          </table>
       </div>
     </div>
   </div>
