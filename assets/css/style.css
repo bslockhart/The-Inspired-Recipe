@@ -75,10 +75,10 @@ body {
   justify-content: space-between;
   border-top: grey 10px groove;
   color: rgba(7, 12, 10, 0);
-  position: fixed;
   bottom: 0;
   width: 100%;
   color: #1f1c10;
+ 
 }
 
 .notification {
@@ -92,17 +92,11 @@ button {
   border: 0px;
 }
 
-.footer-names {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.footer-names p {
-  margin-right: 30px;
-}
 
 #back-button {
   float: right;
+  padding: 15px;
+  margin-bottom: 10px;
 }
 
 .footer-brand {
@@ -111,15 +105,6 @@ button {
   text-align: center;
 }
 
-.row.credits {
-  font-size: 18px;
-  font-weight: 500;
-  display: grid;
-  gap: 5rem;
-  grid-auto-flow: column;
-  margin-top: 10px;
-  justify-content: center;
-}
 
 .id {
   padding: 10px;

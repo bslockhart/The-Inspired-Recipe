@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     $('#search-button').on('click', function(event) {
         let searchTerm = $('#search-field').val();
-        runSearch(searchTerm);
+        runSearch(searchTerm);   
     });
 
     const runSearch = (searchTerm) => {
