@@ -118,5 +118,5 @@ The following image shows the web application's appearance and functionality:
 * Date Submitted: September 14, 2022
 * The URL of the deployed application: (https://bslockhart.github.io/The-Inspired-Recipe/)
 * The URL of the GitHub repository that contains your code: (https://github.com/bslockhart/The-Inspired-Recipe)
-* The URL of your portfolio, with your project added to it:   
+* The URL of your portfolio, with your project added to it: https://bslockhart.github.io/Lockhart-Portfolio/
 * PowerPoint Presentation Document: https://docs.google.com/presentation/d/1HptAI24cI1mJe26np0eUSyyIPoNQYaGO/edit?usp=sharing&ouid=103431585642431900224&rtpof=true&sd=true
