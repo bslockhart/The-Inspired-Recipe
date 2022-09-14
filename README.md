@@ -7,13 +7,13 @@ A real-world front-end application developed using the skills and technologies l
 ## Table of Contents
 * [Group Members](#Group-Members)
 * [Technologies Used](#Technologies-Used)
-* [User Story](#User-Story)
+* [Two APIs](#APIs)
 * [Project Requirements](#Project-Requirements)
-* [Acceptance Criteria](#Acceptance-Criteria)
+* [Concept](#Concept)
+* [User Story](#User-Story)
 * [Mock Up](#Mock-Up)
 * [Presentation Requirements](#User-Story)
 * [Technical Acceptance Criteria](#Technical-Acceptance-Criteria)
-* [Concept](#Concept)
 * [Deployment](#Deployment)
 * [Repository Quality](#Repository-Quality)
 * [Application Quality](#Application-Quality)
@@ -38,7 +38,6 @@ A real-world front-end application developed using the skills and technologies l
 * [developer.nutritionix](https://developer.nutritionix.com/)
 * [themealdb](https://www.themealdb.com/api.php)
 
-
 ### Project Requirements
 1. Use a CSS framework other than Bootstrap.
 2. Be deployed to GitHub Pages.
@@ -51,7 +50,11 @@ A real-world front-end application developed using the skills and technologies l
 9. Have a clean repository that meets quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
 10. Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
-# Concept
+### Concept 
+* Application should be a unique and novel idea.
+* Your group should clearly and concisely articulate your project idea.
+
+# User Story
 * Given I am user who wants to find a recipe
 * When I enter the category of food and click the search button
 * Then I am presented with a list of recipes
@@ -85,10 +88,6 @@ The following image shows the web application's appearance and functionality:
 - Application uses a CSS framework other than Bootstrap.
 - Application is interactive (accepts and responds to user input)
 
-### Concept
-* Application should be a unique and novel idea.
-* Your group should clearly and concisely articulate your project idea.
-
 ### Deployment
 * Application deployed at live URL and loads with no errors.
 * Application GitHub URL submitted.
@@ -116,8 +115,8 @@ The following image shows the web application's appearance and functionality:
 * There are no major disparities in the number of GitHub contributions between group members.
 
 ### Submission
-* Date Submitted:
+* Date Submitted: September 14, 2022
 * The URL of the deployed application: (https://bslockhart.github.io/The-Inspired-Recipe/)
 * The URL of the GitHub repository that contains your code: (https://github.com/bslockhart/The-Inspired-Recipe)
-* The URL of your portfolio, with your project added to it:   
+* The URL of your portfolio, with your project added to it: https://bslockhart.github.io/Lockhart-Portfolio/
 * PowerPoint Presentation Document: https://docs.google.com/presentation/d/1HptAI24cI1mJe26np0eUSyyIPoNQYaGO/edit?usp=sharing&ouid=103431585642431900224&rtpof=true&sd=true
